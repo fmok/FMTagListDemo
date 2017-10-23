@@ -7,9 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "FMTagListView.h"
 
 @interface ViewController : UIViewController
 
+@property (nonatomic, strong) UITableView *tableView;
+@property (nonatomic, strong) FMTagListView *tagListView;;
 
 @end
 
